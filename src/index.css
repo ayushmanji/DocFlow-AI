@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.ProseMirror {
+  min-height: 500px;
+  outline: none;
+  color: white;
+}
+
+.ProseMirror p {
+  margin: 0.5rem 0;
+}
+
+.ProseMirror h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ProseMirror h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.ProseMirror ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.ProseMirror ol {
+  list-style: decimal;
+  margin-left: 1.5rem;
+}
